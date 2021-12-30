@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Math Operations</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css"> <!---link to css file--->
+    <script type="text/javascript" src="js/index.js"></script>   <!---link to js file--->
+</head>
+<body>
+    <h1>Basic Math Operations</h1>
+    <form onsubmit="return false">
+        <!---form cannot submit due to return flase--->
+        <table>
+            <tr>
+                <td colspan="2" id="results-label">Result:</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="input-right">
+                        <input id="results" name="results" class="inputs">  <!---result input field--->
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <b>Enter your numbers:</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="input-right">
+                        <input id="number1" name="number1" class="inputs">  <!---number 1 input field--->
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="input-right">
+                        <input id="number2" name="number2" class="inputs">  <!---number 2 input field--->
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="add()">ADD</button>
+                </td>
+                <td>
+                    <button onclick="subtract()">SUBTRACT</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="multiply()">MULTIPLY</button>
+                </td>
+                <td>
+                    <button onclick="divide()">DIVIDE</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" id="signature">
+                    BY: Hilal Avci
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
+

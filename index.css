@@ -1,0 +1,37 @@
+body {
+    font-size: 12px;
+}
+
+button {
+    height: 30px;
+    width: 100%;
+}
+
+table {
+    border: 1px solid grey;
+    width: 100%;
+}
+
+td {
+    vertical-align: top;
+    padding: 3px;
+}
+
+#results-label {
+    height: 30px;
+    width: 100%;
+    font-size: 18px;
+}
+
+#signature {
+    text-align: right;
+    font-style: italic;
+}
+
+.inputs {
+    width: 100%;
+}
+
+.input-right {
+    margin-right: 6px;
+}
